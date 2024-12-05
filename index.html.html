@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotics Club Registration Form</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>     
+        .navbar-custom {
+            background-color: darkblue; 
+        }
+        .navbar-custom .navbar-brand,
+        .navbar-custom .nav-link {
+            color: #fff;
+            margin: 5px;
+            padding: 3px;
+
+        }
+        .navbar-custom, .nav-link, .navbar-brand:hover {
+            color: #d1ecf1; 
+        }
+            body{
+      background-image: url(https://static.vecteezy.com/system/resources/previews/001/879/912/non_2x/geometric-tech-shape-background-free-vector.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    .container{
+      background-color: black;
+      color: white;
+      background: rgba(0,0,0,0.5);
+     
+    }
+    .form-group{
+      padding: 10px;
+      margin: 10px;
+      text-align: left;
+      align-content: left;
+      align-items: left;
+    }
+    .form-control{
+      width: 500px;
+    }
+    .form-check-input{
+    }qqqqq
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://obmontessoriangeles.orangeapps.ph/oa_school/home">OBMC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://obmontessoriangeles.orangeapps.ph/oa_school/home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.google.com/maps/place/Operation+Brotherhood+Montessori+Center/@15.1373183,120.5945366,17z/data=!3m1!4b1!4m6!3m5!1s0x3396f237c7d7ec39:0xa3cae61a3f0a87ea!8m2!3d15.1373131!4d120.5971115!16zL20vMGY1MHM2?entry=ttu&g_ep=EgoyMDI0MTIwMi4wIKXMDSoASAFQAw%3D%3D">Locate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://obmontessori.edu.ph/contact-us">Contact us</a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+     <div class="container mt-5">
+    <h1 class="mb-4 text-center">
+      Robotics Club Registration Form
+    </h1>
+    <form>
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="example_text1"> Name</label>
+            <input type="text" class="form-control" id="example_text1" placeholder="Please Input Your Name">
+          </div>
+        </div>
+        <div class="col-md-6">  
+          <div class="form-group">
+            <label for="example_Email"> Email Address</label>
+            <input type="email" class="form-control" id="example_Email" placeholder="Please Input Your Email">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="example_text"> Age</label>
+            <input type="text" class="form-control" id="example_text" placeholder="Please Input Your Age">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="example_text2"> Phone Number</label>
+            <input type="text" class="form-control" id="example_text2" placeholder="Please Input Your Phone Number">
+          </div>
+        </div>
+      </div>
+
+      <h4> Preffered Robotics Topic</h4>
+      <div class="form-check mb-3">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1"> Engineering</label>
+      </div>  
+              <div class="form-check mb-3">
+        <input type="checkbox" class="form-check-input" id="exampleCheck2">
+        <label class="form-check-label" for="exampleCheck2"> Electronics</label>
+      </div>
+              <div class="form-check mb-3">
+        <input type="checkbox" class="form-check-input" id="exampleCheck3">
+        <label class="form-check-label" for="exampleCheck3"> Mechanical Design</label>
+      </div>
+
+      <h4> Robotics Experience Level</h4>
+      <div class="form-check mb-3">
+        <input type="radio" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1"> Beginner</label>
+      </div>  
+      <div class="form-check mb-3">
+        <input type="radio" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1"> Intermediate</label>
+      </div>
+      <div class="form-check mb-3">
+        <input type="radio" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1"> Advanced</label>
+      </div>
+
+      <div class="form-group mb-3">
+       <label for="project" class="form-check-label" style="margin-left: -20px; margin-bottom: 7px;">Preferred Robotics project</label>
+        <select class="form-control" id="project" style="width: 1040px ; margin-left: -20px; margin-bottom: 10px ;">
+          <option value="" disabled selected>Choose a project</option>
+          <option value="robot">Robot</option>
+          <option value="Car">Car</option>
+          <option value="Robotic Arm">Robotic Arm</option>
+        </select>
+      <label for="example_text4" style="margin-left:-20px;"> Statement of Interest</label>
+      <textarea class="form-control" id="example_text4" style="margin-left:-20px; margin-bottom: 10px; width: 1040px;">
+      </textarea>
+      <button type="submit" class="btn btn-primary" style="margin-left: -20px;">Submit</button>
+    </div>
+    </form>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
